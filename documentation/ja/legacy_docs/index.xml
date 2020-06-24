@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>レガシー on Seleniumドキュメント</title>
-    <link>https://selenium.dev/documentation/ja/legacy_docs/</link>
+    <link>https://www.selenium.dev/documentation/ja/legacy_docs/</link>
     <description>Recent content in レガシー on Seleniumドキュメント</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>2013-{year}</copyright>
     
-	<atom:link href="https://selenium.dev/documentation/ja/legacy_docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.selenium.dev/documentation/ja/legacy_docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Selenium 1 (Selenium RC)</title>
-      <link>https://selenium.dev/documentation/ja/legacy_docs/selenium_rc/</link>
+      <link>https://www.selenium.dev/documentation/ja/legacy_docs/selenium_rc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://selenium.dev/documentation/ja/legacy_docs/selenium_rc/</guid>
+      <guid>https://www.selenium.dev/documentation/ja/legacy_docs/selenium_rc/</guid>
       <description>紹介 Selenium RCは長い間メインのSeleniumプロジェクトでしたが、WebDriver/Seleniumを併合したより強力なツールであるSelenium 2が登場しました。 Selenium 1はもうサポートされていないことを強調する価値があります。
 Selenium RCの仕組み はじめに、Selenium RCのコンポーネントがどのように動作するか、およびテストスクリプトの実行でそれぞれが果たす役割について説明します。
 RCコンポーネント SeleniumRCコンポーネントは、以下のとおりです。
@@ -32,15 +32,15 @@ RCサーバーはSelenium Coreをバンドルし、ブラウザーに自動的�
 使用する言語を選択したら、次のことを行う必要があります。
  Selenium RCサーバーをインストールします。 言語固有のクライアントドライバーを使用してプログラミングプロジェクトをセットアップします。  Seleniumサーバーのインストール Selenium RCサーバーは単なるJava jarファイル（selenium-server-standalone-&amp;lt;version-number&amp;gt;.jar）であり、特別なインストールは不要です。 zipファイルをダウンロードして、目的のディレクトリにサーバーを展開するだけで十分です。
 Seleniumサーバーを実行する テストを開始する前に、サーバーを起動する必要があります。 Selenium RCのサーバーがあるディレクトリに移動し、コマンドラインコンソールから次を実行します。
-java -jar selenium-server-standalone-&amp;lt;version-number&amp;gt;.jar これは、上記のコマンドを含むバッチまたはシェル実行可能ファイル（Windowsでは.</description>
+java -jar selenium-server-standalone-&amp;lt;version-number&amp;gt;.jar これは、上記のコマンドを含むバッチまたはシェル実行可能ファイル（Windowsでは.bat、Linuxでは.sh）を作成することで簡素化できます。 次に、デスクトップ上でその実行可能ファイルへのショートカットを作成し、アイコンをダブルクリックしてサーバーを起動します。</description>
     </item>
     
     <item>
       <title>RCからWebDriverへの移行</title>
-      <link>https://selenium.dev/documentation/ja/legacy_docs/migrating_from_rc_to_webdriver/</link>
+      <link>https://www.selenium.dev/documentation/ja/legacy_docs/migrating_from_rc_to_webdriver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://selenium.dev/documentation/ja/legacy_docs/migrating_from_rc_to_webdriver/</guid>
+      <guid>https://www.selenium.dev/documentation/ja/legacy_docs/migrating_from_rc_to_webdriver/</guid>
       <description>Selenium WebDriverに移行する方法 Selenium 2を採用する際によくある質問は、「既存のテストセットに新しいテストを追加するときに正しいことは何ですか？」ということです。 フレームワークを初めて使用するユーザーは、新しいWebDriver APIを使用してテストを作成することから始めることができます。 しかし、既存のテストスイートを既に持っているユーザーはどうでしょうか？ このガイドは、既存のテストを新しいAPIに移行し、WebDriverが提供する新機能を使用してすべての新しいテストを作成する方法を示すことを目的としています。
 ここで紹介する方法は、1回の大規模なプッシュですべてをやり直す必要のない、WebDriver APIへの断片的な移行について説明しています。 これは、既存のテストの移行により多くの時間を割り当てることができることを意味します。 これにより、どこに労力を費やすかを決定しやすくなります。
 このガイドは、移行を行うための最良のサポートがあるため、Javaを使用して書かれています。 他の言語用のより優れたツールを提供するため、このガイドはそれらの言語を含むように拡張されます。
@@ -55,10 +55,10 @@ WebDriver driver = ((WrapsDriver) selenium).</description>
     
     <item>
       <title>HTMLランナー</title>
-      <link>https://selenium.dev/documentation/ja/legacy_docs/html-runner/</link>
+      <link>https://www.selenium.dev/documentation/ja/legacy_docs/html-runner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://selenium.dev/documentation/ja/legacy_docs/html-runner/</guid>
+      <guid>https://www.selenium.dev/documentation/ja/legacy_docs/html-runner/</guid>
       <description>Selenium HTMLランナー を使用すると、コマンドラインからテストスイートを実行できます。 テストスイートは、Selenium IDEまたは互換性ツールからのHTMLエクスポートです。
 共通情報  geckodriver / firefox / selenium-html-runnerのリリースの組み合わせが重要です。 どこかにソフトウェア互換性マトリックスがあるかもしれません。 selenium-html-runnerはテストスイートのみを実行します（テストケースではなく、Monitis Transaction Monitorからのエクスポートなど）。 必ずこれを順守してください。 DISPLAYのないLinuxユーザーの場合-仮想ディスプレイでhtml-runnerを起動する必要があります（xvfbを検索）。  Linux環境の例 次のソフトウェアパッケージをインストール/ダウンロードします。
 [user@localhost ~]$ cat /etc/redhat-release CentOS Linux release 7.4.1708 (Core) [user@localhost ~]$ rpm -qa | egrep -i &amp;#34;xvfb|java-1.8|firefox&amp;#34; xorg-x11-server-Xvfb-1.19.3-11.el7.x86_64 firefox-52.4.0-1.el7.centos.x86_64 java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64 java-1.8.0-openjdk-headless-1.8.0.151-1.b12.el7_4.x86_64 テストスイートの例
@@ -67,14 +67,14 @@ WebDriver driver = ((WrapsDriver) selenium).</description>
     
     <item>
       <title>レガシー Selenium IDE</title>
-      <link>https://selenium.dev/documentation/ja/legacy_docs/selenium_ide/</link>
+      <link>https://www.selenium.dev/documentation/ja/legacy_docs/selenium_ide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://selenium.dev/documentation/ja/legacy_docs/selenium_ide/</guid>
+      <guid>https://www.selenium.dev/documentation/ja/legacy_docs/selenium_ide/</guid>
       <description>紹介 Selenium-IDE (統合開発環境) は、Selenium テストケースを開発するためのツールです。 Selenium-IDE は使いやすい Firefox プラグインで、一般にテストケースを開発するための最も効率的な方法です。 Selenium-IDE ではコンテキストメニューも使用できます。 コンテキストメニューを使うと、まず現在ブラウザに表示されているページ上の UI 要素を選択し、次に Selenium コマンドのリストから目的のコマンドを選択できます。 コマンドのパラメータは、選択された UI 要素のコンテキストに従って、あらかじめ定義されたものが使われます。 Selenium-IDE を使う方法は、時間の節約になるだけでなく、Selenium スクリプトの構文を学ぶ手段としても優れています。
 この章では Selenium-IDE について詳しく取り上げ、Selenium-IDE を効果的に使う方法について説明します。
 IDEのインストール Firefoxを使用して、最初にSeleniumHQダウンロードページからIDEをダウンロードします。
-Firefoxは、不慣れな場所からアドオンをインストールしないように保護するため、次のスクリーンショットに示すように、インストールを続行するには&amp;rsquo;許可&amp;rsquo;をクリックする必要があります。
+Firefoxは、不慣れな場所からアドオンをインストールしないように保護するため、次のスクリーンショットに示すように、インストールを続行するには&#39;許可&#39;をクリックする必要があります。
 Firefoxからダウンロードすると、次のウィンドウが表示されます。
 「今すぐインストール」を選択します。 Firefoxの「アドオン」ウィンドウがポップアップし、最初にプログレスバーが表示されます。 ダウンロードが完了すると、次のような画面になります。
 Firefoxを再起動します。 Firefoxの再起動後、Firefoxの「ツール」メニューには、「Selenium-IDE」が表示されます。
@@ -83,7 +83,8 @@ IDEの機能 メニューバー 「ファイル」メニューには、テスト
 「編集」メニューでは、テストケースのコマンドを編集するためのすべての操作をコピー、貼り付け、削除、元に戻す、選択できます。 「オプション」メニューでは、さまざまな設定を変更できます。 特定のコマンドのタイムアウト値を設定し、Seleniumコマンドの基本セットにユーザー定義のユーザー拡張機能を追加し、テストケースを保存するときに使用する形式（言語）を指定できます。 「ヘルプ」メニューは Firefox 標準の「ヘルプ」メニューで、この中の 「UI-Element Documentation」 だけが Selenium-IDE に関係のある項目です。
 ツールバー ツールバーには、テストケースをデバッグするためのステップ実行機能をはじめ、テストケースの実行をコントロールするためのさまざまなボタンが並んでいます。 右端の赤い丸のボタンは、「Record」(記録) ボタンです。
 「Speed Control」 (速度調節): テストケースの実行速度を調節します。
-「Run All」 (すべて実行): 複数のテストケースを持つテストスイートが読み込まれているときにテストスイート全体を実行します。</description>
+「Run All」 (すべて実行): 複数のテストケースを持つテストスイートが読み込まれているときにテストスイート全体を実行します。
+「Run」 (実行): 現在選択されているテストを実行します。 テストが1つしか読み込まれていない場合、このボタンと「Run All」ボタンの動作は同じです。</description>
     </item>
     
   </channel>

@@ -4,46 +4,76 @@
   
   <url>
     <loc>https://selenium.dev/categories/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://selenium.dev/categories/general/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://selenium.dev/categories/governance/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <loc>https://selenium.dev/blog/2020/how-selenium-works-transport/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://selenium.dev/tags/meeting/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://selenium.dev/blog/2020/public-project-meeting-20200423/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <loc>https://selenium.dev/tags/selenium/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://selenium.dev/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://selenium.dev/tags/slack/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://selenium.dev/tags/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/categories/governance/</loc>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/tags/meeting/</loc>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/blog/2020/public-project-meeting-20200604/</loc>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/tags/slack/</loc>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://selenium.dev/tags/tlc/</loc>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/categories/releases/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/blog/2020/selenium-4-alpha-6-is-out/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/blog/2020/public-project-meeting-20200507/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://selenium.dev/blog/2020/public-project-meeting-20200423/</loc>
     <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://selenium.dev/categories/conference/</loc>
+    <loc>https://selenium.dev/tags/conference/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://selenium.dev/tags/conference/</loc>
+    <loc>https://selenium.dev/categories/conference/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,16 +134,6 @@
   
   <url>
     <loc>https://selenium.dev/tags/ide/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://selenium.dev/categories/releases/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://selenium.dev/tags/selenium/</loc>
     <lastmod>2018-08-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,12 +328,12 @@
   </url>
   
   <url>
-    <loc>https://selenium.dev/categories/meetup/</loc>
+    <loc>https://selenium.dev/tags/meetup/</loc>
     <lastmod>2013-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://selenium.dev/tags/meetup/</loc>
+    <loc>https://selenium.dev/categories/meetup/</loc>
     <lastmod>2013-08-09T00:00:00+00:00</lastmod>
   </url>
   
